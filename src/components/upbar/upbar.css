@@ -14,6 +14,8 @@ html,body{
     justify-content: space-around;
     align-items: center;
     border-bottom: 2px solid lightgray ;
+    background-color: white;
+    z-index: 99;
 }
 #profile-pic{
     width: 50px;

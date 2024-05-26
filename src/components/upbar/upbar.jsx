@@ -1,13 +1,13 @@
-import "./topbar.css"
+import "./upbar.css"
 
 function Topbar() {
   return (
     <div className='top'>
       <div className="social-links">
-        <a href="www.facebook.com"><i class="topIcon fab fa-facebook-square"></i></a>
-        <a href="www.twitter.com"><i class="topIcon fab fa-twitter-square"></i></a>
-        <a href="www.instagram.com"><i class="topIcon fab fa-instagram-square"></i></a>
-        <a href="www.pinterest.com"><i class="topIcon fab fa-pinterest-square"></i></a>
+        <a href="https://www.facebook.com"><i class="topIcon fab fa-facebook-square"></i></a>
+        <a href="https://www.twitter.com"><i class="topIcon fab fa-twitter-square"></i></a>
+        <a href="https://www.instagram.com"><i class="topIcon fab fa-instagram-square"></i></a>
+        <a href="https://www.pinterest.com"><i class="topIcon fab fa-pinterest-square"></i></a>
       </div>
        <div className="nav-links">
       <a href="#">HOME</a>
