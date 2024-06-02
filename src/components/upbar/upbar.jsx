@@ -1,5 +1,5 @@
 import "./upbar.css"
-
+import { Link } from "react-router-dom"
 function Topbar() {
   return (
     <div className='top'>
@@ -10,11 +10,9 @@ function Topbar() {
         <a href="https://www.pinterest.com"><i class="topIcon fab fa-pinterest-square"></i></a>
       </div>
        <div className="nav-links">
-      <a href="#">HOME</a>
-      <a href="#">ABOUT</a>
-      <a href="#">CONTACT</a>
-      <a href="#">WRITE</a>
-      <a href="#">LOGOUT</a>
+       {/* <Link to="/">HOME</Link>
+       <Link to="/write">WRITE</Link>
+       <Link to="/logout">LOGOUT</Link> */}
       </div>
       <div className="top-right">
       <img src="./ai-image.jpg" alt="profile" id="profile-pic"/>
